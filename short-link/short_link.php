@@ -29,7 +29,6 @@ function write_file($filename, $data){
         echo "Данные успешно записаны в файл $filename<br>";
     }
 }
-
 function generate_string($string, $strength = 7) {
     $input_length = strlen($string);
     $random_string = '';

@@ -4,7 +4,6 @@ function upload($name_input, $pach){
     if(!opendir($pach)){
         return 'Директория сохранения файлов, указана неверно!';
     }
-
     foreach ($_FILES as $value) {
         $file_name=$value['name'];
 

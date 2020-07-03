@@ -26,5 +26,4 @@ function RemoveDir($path) {
     }
     else echo "Директории $path не существует";
 }
-
 RemoveDir('qwerty');
